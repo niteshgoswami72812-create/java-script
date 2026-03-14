@@ -147,17 +147,22 @@ bom()
 function bom(){
     var num = prompt("Enter Number")
 
-    if(num >0 && num <33){
+    if(num >=0 && num <=33){
         alert("D")
     }
 
-    else if(num >=33 && num <60) {
+    else if(num >=33 && num <=60) {
         alert("B")
     }
-    else if(num >60 && num <100) {
+    else if(num >60 && num <=100) {
         alert("A")
     }
-    
+    else if(num <0 ){
+        alert("Enter correct Number")
+    }
+    else if(num >100 ){
+        alert("Enter correct Number")
+    }
 }
-
 bom()
+
