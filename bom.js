@@ -1,139 +1,139 @@
 
-function nitesh(){
+// function nitesh(){
 
-    var myname = "Nitesh"
+//     var myname = "Nitesh"
     
-    console.log(myname)
-}
+//     console.log(myname)
+// }
 
-nitesh()
+// nitesh()
 
-function Anurag(){
+// function Anurag(){
 
-    console.log("Anurag")
-}
+//     console.log("Anurag")
+// }
 
-Anurag()
+// Anurag()
 
-function rahul(){
+// function rahul(){
 
-    console.log(11*5)
-}
+//     console.log(11*5)
+// }
 
-rahul()
+// rahul()
 
-function rohit(){
+// function rohit(){
 
-    console.log(99-11)
-}
+//     console.log(99-11)
+// }
 
-rohit()
+// rohit()
 
-function rahulrohit () {
+// function rahulrohit () {
 
-    var a = 9
-    var b = 10
-    console.log(a+b)
-}
+//     var a = 9
+//     var b = 10
+//     console.log(a+b)
+// }
 
-rahulrohit ()
+// rahulrohit ()
 
-function number (){
+// function number (){
 
-    //type coercion
-    //first priority
-    // second priority numbers
-    // true value 1, false value 0
-    var a = 5
-    var b = null
-    console.log(a+b);
-}
-number()
+//     //type coercion
+//     //first priority
+//     // second priority numbers
+//     // true value 1, false value 0
+//     var a = 5
+//     var b = null
+//     console.log(a+b);
+// }
+// number()
 
 // function bom(){
 
-//     // alert()
+//      alert()
 //     var a = 4
-//     alert(a)
-// }
-// bom()
+//      alert(a)
+//  }
+//  bom()
 
 //  function bom(){
 
-//     //prompt()
+//      prompt()
 //     var myname = prompt("Enter your name")
 //     alert("welcome" + myname)
     
-// }
-// bom()
-
-// function bom() {
-//     var num1 = prompt("Enter first number");
-//     var num2 = prompt("Enter second number");
-
-//     var sum = Number(num1) + Number(num2);
-
-//     alert(sum);
-//     alert("welcome");
-// }
-
-// bom();
-
-// function bom(){
-//     var num1 = prompt("Enter first number");
-//     var num2 = prompt("Enter second number");
-
-//     var sum = Number(num1) + Number(num2);
-
-//     alert(sum);
-//     alert("welocme");
-// }
-
-// bom()
-
-// function bom(){
-
-//  var age = prompt("Enter your age")
- 
-//  if( age >= 21 ){
-
-//     alert("welcome")
 //  }
-//  else{
-//     alert("you cant")
+//  bom()
+
+//  function bom() {
+//      var num1 = prompt("Enter first number");
+//      var num2 = prompt("Enter second number");
+
+//      var sum = Number(num1) + Number(num2);
+
+//      alert(sum);
+//      alert("welcome");
 //  }
 
-// }
-// bom()
+//  bom();
 
-function bom(){
+//  function bom(){
+//      var num1 = prompt("Enter first number");
+//      var num2 = prompt("Enter second number");
 
- var num = prompt("Enter Number");
+//      var sum = Number(num1) + Number(num2);
+
+//      alert(sum);
+//      alert("welocme");
+//  }
+
+//  bom()
+
+//  function bom(){
+
+//   var age = prompt("Enter your age")
  
- if( num % 2 == 0 ){
+//   if( age >= 21 ){
 
-    alert("even number");
- }
- else{
-    alert("odd number");
- }
+//      alert("welcome")
+//   }
+//   else{
+//      alert("you cant")
+//   }
 
-}
-bom()
+//  }
+//  bom()
 
-function bom(){
-var num = prompt("Enter a number");
+//  function bom(){
 
-if (num > 0) {
-    alert("Number is Positive");
-} 
-else if (num < 0) {
-    alert("Number is Negative");
-} 
-}
-bom() 
+//   var num = prompt("Enter Number");
+ 
+//   if( num % 2 == 0 ){
 
-// if else 
+//      alert("even number");
+//   }
+//   else{
+//      alert("odd number");
+//   }
+
+//  }
+//  bom()
+
+//  function bom(){
+//  var num = prompt("Enter a number");
+
+//  if (num > 0) {
+//      alert("Number is Positive");
+//  } 
+//  else if (num < 0) {
+//      alert("Number is Negative");
+//  } 
+//  }
+//  bom() 
+
+ //if else 
     // forloop
 // homework
 
@@ -166,3 +166,32 @@ function bom(){
 }
 bom()
 
+
+// function bom (){
+
+//     var num = prompt("Enter a number")
+//     for(var i=1; i <= 30; i++)
+//         alert(i);
+// }
+// bom()
+
+
+for(let i = 1; i <= 30; i++){
+    console.log(i);
+}
+
+for(let i = 2; i <= 10; i = i + 2){
+    console.log(i);
+}
+
+for(let i = 1; i <= 10; i = i + 2){
+    console.log(i);
+}
+
+for(let i = 10; i >= 1; i--){
+    console.log(i);
+}
+
+for(let i = 1; i <= 10; i++){
+    console.log(5 * i);
+}
