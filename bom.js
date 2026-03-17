@@ -144,27 +144,27 @@
 // 100 se jayda hai to enter  correct number
 // for loop ka use karke 1 se 30 tak number print karne hai loop chala kar
 
-function bom(){
-    var num = prompt("Enter Number")
+// function bom(){
+//     var num = prompt("Enter Number")
 
-    if(num >=0 && num <=33){
-        alert("D")
-    }
+//     if(num >=0 && num <=33){
+//         alert("D")
+//     }
 
-    else if(num >=33 && num <=60) {
-        alert("B")
-    }
-    else if(num >60 && num <=100) {
-        alert("A")
-    }
-    else if(num <0 ){
-        alert("Enter correct Number")
-    }
-    else if(num >100 ){
-        alert("Enter correct Number")
-    }
-}
-bom()
+//     else if(num >=33 && num <=60) {
+//         alert("B")
+//     }
+//     else if(num >60 && num <=100) {
+//         alert("A")
+//     }
+//     else if(num <0 ){
+//         alert("Enter correct Number")
+//     }
+//     else if(num >100 ){
+//         alert("Enter correct Number")
+//     }
+// }
+// bom()
 
 
 // function bom (){
@@ -176,22 +176,24 @@ bom()
 // bom()
 
 
-for(let i = 1; i <= 30; i++){
-    console.log(i);
-}
+// for(let i =30; i >= 1; i--){
+//     console.log(i);
+// }
 
-for(let i = 2; i <= 10; i = i + 2){
-    console.log(i);
-}
+// for(let i = 2; i <= 10; i = i + 2){
+//     console.log(i);
+// }
 
-for(let i = 1; i <= 10; i = i + 2){
-    console.log(i);
-}
+// for(let i = 1; i <= 10; i = i + 2){
+//     console.log(i);
+// }
 
-for(let i = 10; i >= 1; i--){
-    console.log(i);
-}
+// for(let i = 10; i >= 1; i--){
+//     console.log(i);
+// }
 
-for(let i = 1; i <= 10; i++){
-    console.log(5 * i);
-}
+// for(let i = 1; i <= 10; i++){
+//     console.log(5 * i);
+// }
+
+ 
