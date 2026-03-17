@@ -1,62 +1,61 @@
 
-// function nitesh(){
+//  function nitesh(){
 
-//     var myname = "Nitesh"
+//      var myname = "Nitesh"
     
-//     console.log(myname)
-// }
+//      console.log(myname)
+//  }
 
-// nitesh()
+//  nitesh()
 
-// function Anurag(){
+//  function Anurag(){
 
-//     console.log("Anurag")
-// }
+//      console.log("Anurag")
+//  }
 
-// Anurag()
+//  Anurag()
 
-// function rahul(){
+//  function rahul(){
 
-//     console.log(11*5)
-// }
+//      console.log(11*5)
+//  }
 
-// rahul()
+//  rahul()
 
 // function rohit(){
 
-//     console.log(99-11)
-// }
-
-// rohit()
-
-// function rahulrohit () {
-
-//     var a = 9
-//     var b = 10
-//     console.log(a+b)
-// }
-
-// rahulrohit ()
-
-// function number (){
-
-//     //type coercion
-//     //first priority
-//     // second priority numbers
-//     // true value 1, false value 0
-//     var a = 5
-//     var b = null
-//     console.log(a+b);
-// }
-// number()
-
-// function bom(){
-
-//      alert()
-//     var a = 4
-//      alert(a)
+//      console.log(99-11)
 //  }
-//  bom()
+
+//  rohit()
+
+//  function rahulrohit () {
+
+//      var a = 9
+//      var b = 10
+//      console.log(a+b)
+//  }
+
+//  rahulrohit ()
+
+//  function number (){
+
+//      //type coercion
+//      //first priority
+//      // second priority numbers
+//      // true value 1, false value 0
+//      var a = 5
+//      var b = null
+//      console.log(a+b);
+//  }
+//  number()
+
+//  function bom(){
+//       alert()
+//      var a = 4
+//       alert(a)
+//   }
+//     bom()
 
 //  function bom(){
 
@@ -133,8 +132,8 @@
 //  }
 //  bom() 
 
- //if else 
-    // forloop
+//  if else 
+//     forloop
 // homework
 
 // 0-33 d
@@ -196,4 +195,106 @@
 //     console.log(5 * i);
 // }
 
+//  ============var scope==================
+
+//   function bom(){
+//      var a = 20;
+//      console.log(a);
+//   }
+//   bom()
+
+//  ==============varscope error=============
+//   function bom(){
+//      var a = 22;
+//   }
+//   console.log(a);   
+//   bom()
  
+// =================let scope==================
+// =================block{}====================
+//  {let a =99;
+//      console.log(a);
+//  }
+
+// =================error======================
+//  {
+//      let a=99;
+//  }
+// console.log(a);
+
+// ==============const scope===================
+// {const a = 90;
+//     console.log(a);
+// }
+
+// ==============error======================
+// {const a = 90;
+// }
+//  console.log(a);
+
+
+// =====================HOISTING======================//
+// =======================var========================//
+
+// var a;
+// console.log(a);
+// a = 5;
+
+// console.log(a);
+// var a =5; 
+
+// =====================let=========================
+
+// console.log(a);
+// let a =5;   isko bnd kiya h taki upr ki res show how 
+
+// ===================const==========================
+// console.log(a);
+//  let a =5;   isko bnd kiya h taki upr ki res show how 
+
+
+// ==================redeclaration=======================
+// ================var==================
+// var a = 18;
+// var a = 19;
+// var a = 21;
+// console.log(a);
+
+// =============let=====================
+// let a = 97;
+// let a = 27;
+
+// =============const==============
+// const a = 88;
+// const a = 91;
+
+// ======reassignment======
+
+// ===var===
+
+// var a = 44;
+//     a = 45;
+
+// console.log(a);
+
+// ===let===//
+// let a = 55;
+//     a = 56;
+// console.log(a);  isko run arne ke liye pehle wali comand band krni hogi
+
+// ===const===//
+// const a = 999;
+//       a = 987; error
+
+
+// let A = "javascript"
+// console.log(A.toUpperCase());
+ 
+
+
+// | Feature    | var      | let   | const |
+// | ---------- | -------- | ----- | ----- |   
+// | Scope      | Function | Block | Block |
+// | Hoisting   | Yes      | No    | No    |
+// | Re-declare | Yes      | No    | No    |
+// | Re-assign  | Yes      | Yes   | No    |
