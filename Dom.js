@@ -80,7 +80,7 @@ function showImage(){
 
 
       
-  
+    
       // monday test
     //   array string  methods 
     //   if else
