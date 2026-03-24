@@ -1,8 +1,14 @@
 function nitesh (){
     
-    let Fruits = ["mango", "banana", "orange", "grapes"]
-    // console.log(Fruits[3]);
-    // console.log(Fruits.length);
+let fruits = ["mango", "banana", "orange", "grapes"];
+fruits.pop();
+
+console.log(fruits); 
+// ["mango", "banana", "orange"]
+
+}
+
+nitesh()
 
     //pop(), push(), shift(), unshift()
     
@@ -28,17 +34,17 @@ function nitesh (){
     // console.log(num.sort().reverse());
 
 
-    let bhopal = "cybrom";
-    let reverse = "";
+    // let bhopal = "cybrom";
+    // let reverse = "";
 
-    for (let i = bhopal.length - 1; i >= 0; i--)
-        reverse += bhopal[i];
+    // for (let i = bhopal.length - 1; i >= 0; i--)
+    //     reverse += bhopal[i];
 
-    console.log(reverse);
+    // console.log(reverse);
     
-}
+// }
 
-nitesh ()
+// nitesh ()
  
 
 // hw 
