@@ -1,15 +1,38 @@
-let nitesh=(a)=>{
+let Add= ()=>{
 
-return a*a
+    let Num1= document.querySelector('#num1').value
+    let Num2= document.querySelector('#num2').value
 
-// alert(6*6)
-
-
+    document.querySelector('#show').innerHTML= Number(Num1) + Number(Num2)
 
 }
 
-console.log(nitesh(6));
+
+let Multi= ()=>{
+
+    let Num1= document.querySelector('#num1').value
+    let Num2= document.querySelector('#num2').value
+
+    document.querySelector('#show').innerHTML= Number(Num1) * Number(Num2)
+
+}
 
 
+let Sub= ()=>{
 
-// dom
+    let Num1= document.querySelector('#num1').value
+    let Num2= document.querySelector('#num2').value
+
+    document.querySelector('#show').innerHTML= Number(Num1) - Number(Num2)
+
+}
+
+
+let Div= ()=>{
+
+    let Num1= document.querySelector('#num1').value
+    let Num2= document.querySelector('#num2').value
+
+    document.querySelector('#show').innerHTML= Number(Num1) / Number(Num2)
+
+}
