@@ -36,7 +36,7 @@ function increment() {
     tag.innerText = count;
     tag.style.color="Green"
     
-    
+     
 }
   
 // function decrement() {
