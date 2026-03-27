@@ -1,50 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
-     <!-- START HTML  -->
+    <!-- START HTML  -->
 
-    <form onsubmit="return formvalidate()">
+    <div style="border: 1px solid transparent; 
+    width: 500px; 
+    height: 470px;  
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     margin-left: 380px;">
 
-       
-        <p id="Fnameerr"
-        style="color: red;"></p>
-         First Name <input type="text" id="namef"> <br> <br>
-
-        <p id="Mnameerr"></p>
-         Middle Name <input type="text" id="namem"> <br> <br>
-
-         <p id="Lnameerr"></p>
-         Last Name <input type="text" id="namel"> <br> <br>
-
-         <p id="Enumerr"></p>
-         Enter Number <input type="text" id="nume"> <br> <br>
-
-         <p id="Eemailerr"></p>
-         Enter Email <input type="text" id="emaile"> <br> <br>
-
-         <p id="passerr"></p>
-         Enter Password <input type="text" id="passd"> <br> <br>
-
-         <p id="cpasserr"></p>
-         Enter Confirm Password <input type="text" id="cpassd"> <br> <br>
+        <form onsubmit="return formvalidate()" style="font-family:Verdana, Geneva, Tahoma, sans-serif; 
+     font-weight:lighter; 
+     color: black;
+     background-image: url(./Compt.PNG);
+     background-size:contain;
+     width: 100%;">
 
 
-         
+            <fieldset>
+               
 
-         <input type="submit">
+                <legend>PERSONAL INFORMATION</legend> First Name <input type="text" id="namef"
+                    placeholder="Enter Name..." style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+         background-color: transparent;
+         font-size: lighter;"> <br> <br>
 
-        
+              
+                Middle Name <input type="text" id="namem" placeholder="Enter Middle Name..." style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+         background-color: transparent;
+         font-size: lighter;"> <br> <br>
 
-    </form> 
+                Last Name <input type="text" id="namel" placeholder="Enter Last Name..." style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+         background-color: transparent;
+         font-size: lighter;"> <br> <br>
 
-    <!-- END HTML  -->
-    
+               
+                Enter Number <input type="text" id="nume" placeholder="Enter Number..." style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+         background-color: transparent;
+         font-size: lighter;"> <br> <br>
+
+                
+                Enter Email <input type="text" id="emaile" placeholder="Enter Email..." style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+         background-color: transparent;
+         font-size: lighter;"> <br> <br>
+
+             
+                Enter Password <input type="text" id="passd" placeholder="Enter Password..." style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+         background-color: transparent;
+         font-size: lighter;"> <br> <br>
+
+                
+                Enter Confirm Password <input type="text" id="cpassd" placeholder="Enter Confirm Password..." style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+         background-color: transparent;
+         font-size: lighter;"> <br> <br>
+
+
+                 <input type="submit" style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+         background-color: transparent;
+         font-size: lighter;
+         border:1px solid black;
+         border-radius: 20px;"> 
+
+                 </fieldset>
+        </form>
+    </div>
+
+    <!-- END HTML  css  -->
+
 
 
 
@@ -52,4 +84,5 @@
 
     <script src="form.js"></script>
 </body>
+
 </html>

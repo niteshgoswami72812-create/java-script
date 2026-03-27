@@ -21,62 +21,65 @@ let formvalidate = () => {
     let pass = document.querySelector("#passd")
     let cpass = document.querySelector("#cpassd")
 
-    let fnameErr = document.querySelector("#Fnameerr")
-    let mnameErr = document.querySelector("#Mnameerr")
-    let lnameErr = document.querySelector("#Lnameerr")
-    let numErr = document.querySelector("#Enumerr")
-    let emailErr = document.querySelector("#Eemailerr")
-    let passerr = document.querySelector("#passerr")
-    let cpasserr = document.querySelector("#cpasserr")
 
     // First Name
     if (fname.value.trim() == "") {
-        fnameErr.innerHTML = "Enter First Name"
+        fname.value = ""
+        fname.placeholder = "Enter First Name!"
+        fname.style.border = "2px solid red"
         return false
-  
-     }
+    }
 
     // Middle Name
     if (mname.value.trim() == "") {
-        mnameErr.innerHTML = "Enter Middle Name"
+        mname.value = ""
+        mname.placeholder = "Middle Name!"
+        mname.style.border = "2px solid red"
         return false
-    } 
-    
+    }
+
 
     // Last Name
     if (lname.value.trim() == "") {
-        lnameErr.innerHTML = "Enter Last Name"
+        lname.value = ""
+        lname.placeholder = "Last Name!"
+        lname.style.border = "2px solid red"
         return false
     }
 
     // Number
-    if (number.value.trim().length!=10) {
-        numErr.innerHTML = "Enter 10 digit Number"
+    if (number.value.trim().length != 10) {
+        number.value = ""
+        number.placeholder = "Enter 10 Valid digit Number!"
+        number.style.border = "2px solid red"
         return false
     }
 
     // Email
     if (email.value.trim().includes("@") === false || email.value.trim().includes(".com") === false) {
-        emailErr.innerHTML = "Enter Valid Email"
-        return false
-    } 
-
-     // Password 
-    if (pass.value.trim().length<8) {
-        passerr.innerHTML = "Password Must be at least 8 characters long"
+        email.placeholder = "Enter Valid Email!"
+        email.style.border = "2px solid red"
         return false
     }
 
-     // ConfirmPassword 
+    // Password 
+    if (pass.value.trim().length < 8) {
+        pass.placeholder = "Password Must be at least 8 characters long!"
+        pass.style.border = "2px solid red"
+        return false
+    }
+
+    // ConfirmPassword 
     if (cpass.value.trim() != pass.value) {
-        cpasserr.innerHTML = "Please Enter Same Password "
+        cpass.innerHTML = "Please Enter Same Password!"
+        cpass.style.border = "2px solid red"
         return false
     }
 
 
-     
+
 
     return true
 
-    
+
 }
