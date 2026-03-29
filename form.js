@@ -76,10 +76,12 @@ let formvalidate = () => {
         return false
     }
 
-
-
-
     return true
-
-
 }
+
+setInterval( ()=>{
+
+    let today = new Date()
+    console.log(today.getSeconds());
+    
+}, 1000)
