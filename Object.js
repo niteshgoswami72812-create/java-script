@@ -24,20 +24,16 @@ console.log(mydetails.myname)
  }
 
  //destructuring of object 
- const mydetail={names:"nitesh", age:25,city:"indore"};
- console.log(mydetail);
+ let {myname, age, city, number} = mydetails
 
- const{names,age,city}=mydetail
- console.log(names);
- console.log(age);
- console.log(city);
+console.log(age);
+console.log(city);
+console.log(myname);
+console.log(number);
+
+
 
  //spread operator
- const detail1={naam:"nitesh", umar:25};
- const detail2={seher:"hbad",grade:"A"};
-
- const combineddetail={...detail1,...detail2}
- console.log(combineddetail);
  
  
 
