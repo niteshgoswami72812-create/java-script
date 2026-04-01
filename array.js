@@ -1,11 +1,13 @@
 function nitesh (){
     
-let fruits = ["mango", "banana", "orange", "grapes"];
-fruits.pop();
 
-console.log(fruits); 
-// ["mango", "banana", "orange"]
+let fruits = [1,2,3,4,5,6,7,8];
+fruits.splice(0,8);
 
+
+ console.log(fruits); 
+ console.log("Length of array:", fruits.length);
+console.log("Type of fruits:", typeof fruits);
 }
 
 nitesh()
@@ -20,11 +22,6 @@ nitesh()
    
     // Fruits.unshift("nitesh","khushi")
 
-    // slice(), splice()
+    // slice(), splice()\
+    Map()
     
-
-// let bhopal = "cybrom"
-// isko reverse print karke aana H
-
-// array poora padhna hai 
-//  join('')=> cobert array to String.
