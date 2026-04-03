@@ -3,28 +3,28 @@ let fruit = [
         names: "Nitesh",
         age: 25,
         city: "Narmadapuram",
-        phone: 9753856359,
-        photo: "docotr.PNG"
+        phone: 93856359,
+        photo: "Compt.PNG"
     },
     {
         names: "Dilip",
         age: 48,
         city: "Narmadapuram",
-        phone: 9098208864,
+        phone: 90908864,
         photo: "docotr.PNG"
     },
     {
         names: "Khushi",
         age: 24,
         city: "Narmadapuram",
-        phone: 8450050779,
+        phone: 84500509,
         photo: "docotr.PNG"
     },
     {
         names: "Ritu",
         age: 23,
         city: "Narmadapuram",
-        phone: 8815170776,
+        phone: 88151776,
         photo: "docotr.PNG"
     }
 ];
@@ -68,3 +68,8 @@ let newfilter = num.filter((e) => {
 })
 
 console.log(newfilter);
+
+
+
+
+
