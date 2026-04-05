@@ -7,7 +7,7 @@
 //     nitesh.style.color="green"
 
 // }
-
+     
 function hidetext() {
 
     let nitesh = document.querySelector('.nitesh')
