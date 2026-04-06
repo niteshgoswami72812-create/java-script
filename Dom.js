@@ -47,7 +47,7 @@ function increment() {
 // }
 
 
-function decrement() {
+function decrement() { 
     let tag = document.querySelector('#count');
     if (count > 0) {
         count--;
