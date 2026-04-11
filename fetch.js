@@ -2,7 +2,7 @@
 
 let GetData = async () => {
     let api = 'https://jsonplaceholder.typicode.com/posts';
-    let res = await fetch(api);
+    let res = await fetch(api, {method:"Get"});
     let data = await res.json();
     
   
@@ -29,4 +29,6 @@ let showData = document.querySelector("#show");
 
 
 
-    
+    // fetch - axios
+
+
