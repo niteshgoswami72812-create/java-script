@@ -1,7 +1,7 @@
 
  function nitesh(){
 
-     var myname = "Nitesh"
+     var myname = "Nitesh"   
     
      console.log(myname)
  }

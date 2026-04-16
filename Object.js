@@ -14,13 +14,13 @@ console.log(mydetails)
  let btn =()=> {
     let nitesh =document.querySelector("#text").value.trim()
 
-let mydetails= {
+let mydetailss= {
     myname: nitesh,
     age: 26,
     city: "Bhopal",
     number:9753856359
 }
-console.log(mydetails.myname) 
+console.log(mydetailss) 
  }
 
  //destructuring of object 
