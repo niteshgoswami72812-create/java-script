@@ -1,7 +1,7 @@
 let fruit = [
     {
         names: "Nitesh",
-        age: 25,
+        age: 25, 
         city: "Narmadapuram",
         phone: 93856359,
         photo: "Compt.PNG"

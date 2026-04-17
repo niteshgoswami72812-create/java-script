@@ -21,7 +21,7 @@ let mydetailss= {
     number:9753856359
 }
 console.log(mydetailss) 
- }
+ }  
 
  //destructuring of object 
  let {myname, age, city, number} = mydetails

@@ -9,7 +9,7 @@ fruits.splice(0,8);
  console.log("Length of array:", fruits.length);
  console.log("Type of fruits:", typeof fruits);
 }  
-
+ 
 nitesh()
 
     //pop(), push(), shift(), unshift()

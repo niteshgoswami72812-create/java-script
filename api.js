@@ -5,7 +5,7 @@
 
     let api = 'https://jsonplaceholder.typicode.com/posts';
 
-    try {
+    try { 
         let response = await fetch(api);
         let data = await response.json();
         

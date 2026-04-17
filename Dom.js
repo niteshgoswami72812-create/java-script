@@ -14,8 +14,8 @@ function hidetext() {
 
     nitesh.style.display = 'none'
 
-}
-
+} 
+ 
 function showtext() {
 
     let nitesh = document.querySelector('.nitesh')

@@ -8,7 +8,7 @@ let GetData = async () => {
   
     console.log(data);
 
-   
+    
 
 let showData = document.querySelector("#show");
 
